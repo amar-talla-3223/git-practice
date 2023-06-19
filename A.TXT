@@ -1,0 +1,27 @@
+git config --list
+git config --global user.name "Amar Talla"
+git config --global user.email "amar-talla@outlook.com"
+git init
+git status
+git add Test.java
+git add .
+git commit -m "Commit Message"
+git log
+git log --author="Amar Talla"
+git diff
+git diff --staged
+git rm Test.java
+git remote add origin "https://github.com/amar-talla-3223/git-tutorials.git"
+git pull origin master --allow-unrelated-histories
+git push origin master
+git pull origin master
+git branch
+git branch development
+git checkout development
+git reset HEAD Test.java
+git reset HEAD~
+git clone "https://github.com/amar-talla-3223/KarateFramework.git"
+git branch -a
+git branch -m ZODIAC-3 ZODIAC-2
+git branch -d ZODIAC-2
+git merge development -m "Merging Development into Master"
